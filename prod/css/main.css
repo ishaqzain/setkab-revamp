@@ -249,7 +249,9 @@ body {
   background-color: #fff;
   font-family: 'Circular', Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 400; }
+
+.main {
   overflow: hidden; }
 
 a {
@@ -1245,7 +1247,7 @@ button.swiper-pagination-bullet {
     display: block; }
   .swiper-slide__title {
     background: white;
-    padding: 32px 65px;
+    padding: 24px 65px;
     display: block;
     position: absolute;
     bottom: 32px;
@@ -1256,9 +1258,16 @@ button.swiper-pagination-bullet {
     .swiper-slide__title:hover {
       box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.05);
       background: white; }
+      .swiper-slide__title:hover a {
+        background-size: 100% 3px; }
     .swiper-slide__title a {
       color: #1F2D3D;
-      font-size: 32px; }
+      font-size: 32px;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      background-image: linear-gradient(to right, black 0%, black 100%);
+      background-position: 0px 95%;
+      transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s; }
       .swiper-slide__title a::after {
         content: '';
         position: absolute;
