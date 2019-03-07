@@ -11,8 +11,7 @@
   &__title {
     margin-bottom: 24px;
     font-weight: bold;
-    margin-top: -24px;
-    padding-top: 54px;
+    padding-top: 48px;
   }
   &__link {
     font-size: rem(14);
@@ -26,7 +25,7 @@
       margin-bottom: 12px;
       background-repeat: no-repeat;
       background-size: 0% 2px;
-      background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+      background-image: linear-gradient(to right, rgb(165, 171, 177) 0%, rgb(165, 171, 177) 100%);
       background-position: 0px 95%;
       transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
       &:hover {

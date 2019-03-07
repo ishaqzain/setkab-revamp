@@ -33,6 +33,8 @@ img {
     flex-direction: column;
   }
 }
+.row:after, .row:before {content: normal;} //fix flex wrap safari
+
 .container {
     width: 100%;
     max-width: 1100px;

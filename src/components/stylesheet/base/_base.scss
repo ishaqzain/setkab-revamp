@@ -6,6 +6,7 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,9 +17,13 @@ body {
   font-weight: 400;
 }
 
+a{
+  text-decoration: none;
+}
+
 .wrap-container {
   background-color: #F9FAFC;
-  margin: 24px;
+  margin: 0 24px 24px 24px;
   display: block;
 }
 
@@ -76,4 +81,7 @@ img{
 }
 .mb-24 {
   margin-bottom: 24px;
+}
+.float-right {
+  float: right;
 }
