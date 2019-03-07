@@ -1,0 +1,32 @@
+/*************************************************
+*
+* _card-info
+*
+**************************************************/
+$name   :  ".card-info";
+
+#{$name} {
+  display: block;
+  background-color: #fff;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: $color-ink;
+  -webkit-box-shadow: 8px 8px 0px 0px rgb(216, 221, 228);
+  -moz-box-shadow: 8px 8px 0px 0px rgb(216, 221, 228);
+  box-shadow: 8px 8px 0px 0px rgb(216, 221, 228);
+  transition: all ease-in .25s;
+  border-radius: $border-radius-default;
+  margin-bottom: 32px;
+  &:hover {
+    -webkit-box-shadow: 8px 8px 0px 0px rgb(24, 57, 105);
+    -moz-box-shadow: 8px 8px 0px 0px rgb(24, 57, 105);
+    box-shadow: 8px 8px 0px 0px rgb(24, 57, 105);
+  }
+  &__img{
+    margin-bottom: 12px;
+  }
+  &__text{
+    font-size: rem(14);
+  }
+}

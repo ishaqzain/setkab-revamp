@@ -1,0 +1,20 @@
+//********************
+// _variables
+//********************
+
+$base-font-size : 16;
+$color-blue: #0B396D;
+$color-white: #ffffff;
+$color-ink: #1F2D3D;
+$color-ink-light: #6A7785;
+$color-ink-lighter: #A9A9A9;
+$color-grey: #EAECEC;
+$border-radius-default: 2px;
+
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 65em;
+ 
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 25em)";
+$breakpoint-medium: "only screen and (min-width: 50em)";
