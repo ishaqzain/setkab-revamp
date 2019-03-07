@@ -259,7 +259,7 @@ img {
   max-width: 100%; }
 
 .section {
-  padding-bottom: 55px; }
+  padding-top: 48px; }
   .section-title {
     font-size: 20px;
     color: #0B396D;
@@ -282,6 +282,23 @@ img {
     content: "";
     display: table;
     clear: both; }
+
+.text-see-more {
+  position: absolute;
+  font-size: 0.875rem;
+  color: #0B396D;
+  text-decoration: none;
+  top: 6px;
+  right: 20px; }
+
+.text-white {
+  color: #ffffff; }
+
+.mb-32 {
+  margin-bottom: 32px; }
+
+.mb-24 {
+  margin-bottom: 24px; }
 
 /*************************************************
 *
@@ -337,7 +354,15 @@ img {
   height: auto !important; }
 
 .row {
-  margin: 0 -1.5em; }
+  margin: 0 -1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+  .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column; }
 
 .container {
   width: 100%;
@@ -346,12 +371,13 @@ img {
   padding: 24px; }
 
 [class*='col-'] {
+  position: relative;
   float: left;
-  padding: 0 1.5em;
+  padding: 0 1em;
   width: 100%;
   min-height: 1px; }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 40em) {
   .wrapper {
     width: 95%;
     max-width: 65em; }
@@ -386,7 +412,7 @@ img {
 *
 **************************************************/
 .button {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -404,23 +430,4 @@ img {
   .button:hover {
     background-color: #0a325f; }
   .button:active {
-    background-color: #092d56; }
-
-/*************************************************
-*
-* _form
-*
-**************************************************/
-/*************************************************
-*
-* _card-info
-*
-**************************************************/
-.card-info {
-  display: block;
-  background-color: #fff;
-  padding: 24px;
-  text-align: center;
-  text-decoration: none;
-  color: #1F2D3D;
-  -webkit-box-shadow: 8px 8px 0px 0px #d8dd
+    backgr

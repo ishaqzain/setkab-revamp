@@ -27,7 +27,7 @@ img{
 }
 
 .section {
-  padding-bottom: 55px;
+  padding-top: 48px;
   &-title {
     font-size: 20px;
     color: #0B396D;
@@ -55,4 +55,25 @@ img{
     display: table;
     clear: both;
   }
+}
+
+.text-see-more{
+  position: absolute;
+  font-size: rem(14);
+  color: $color-blue;
+  text-decoration: none;
+  top: 6px;
+  right: 20px;
+}
+
+
+// CSS Helper
+.text-white {
+  color: $color-white;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-24 {
+  margin-bottom: 24px;
 }

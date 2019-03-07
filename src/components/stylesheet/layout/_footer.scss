@@ -3,3 +3,41 @@
 * footer
 *
 **************************************************/
+
+.footer {
+  background-color: #1F2D3D;
+  display: block;
+  color: $color-white;
+  &__title {
+    margin-bottom: 24px;
+    font-weight: bold;
+    margin-top: -24px;
+    padding-top: 54px;
+  }
+  &__link {
+    font-size: rem(14);
+    color: #A5ABB1;
+    margin-bottom: 12px;
+    a {
+      text-decoration: none;
+      font-size: inherit;
+      color: inherit;
+      font-weight: normal;
+      margin-bottom: 12px;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+      background-position: 0px 95%;
+      transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+      &:hover {
+        background-size: 100% 2px;
+      }
+    }
+  }
+  &__copyright {
+    font-size: rem(12);
+    color: #A9A9A9;
+    text-align: center;
+    margin-top:32px;
+  }
+}

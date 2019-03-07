@@ -22,7 +22,16 @@ img {
     height: auto !important; 
     }   
 .row{
-  margin: 0 -1.5em;
+  margin: 0 -1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+  > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .container {
     width: 100%;
@@ -36,8 +45,9 @@ img {
     }
       
 [class*='col-'] {
+    position: relative;
     float: left;
-    padding: 0 1.5em;
+    padding: 0 1em;
     width: 100%;
     min-height: 1px; 
     }   

@@ -3,3 +3,37 @@
 * _form
 *
 **************************************************/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: .6; /* Firefox */
+}
+
+.textfield {
+  color:#ffffff;
+  font-size: 14px;
+  padding: 0 12px;
+  height: 48px;
+  line-height: 48px;
+  background-color: rgba($color: #ffffff, $alpha: .1);
+  border-radius: $border-radius-default;
+  margin-bottom: 8px;
+  &__inner{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    white-space: normal;
+    outline: none;
+    box-shadow: none;
+    letter-spacing: normal;
+    color: inherit;
+    position: relative;
+    background: transparent;
+    font-size: inherit;
+    top: -1px;
+  }
+}
