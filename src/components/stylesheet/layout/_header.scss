@@ -154,6 +154,7 @@
     border-right: 1px solid #335985; 
     a {
       color: $color-white;
+      font-size: rem(14);
       &.is-active, &:hover {
         color: $color-yellow;
       }
@@ -172,4 +173,27 @@
       }
     }
   }
+}
+
+.decoration-flag{
+  position: absolute;
+  top: 50px;
+  left: 24px;
+  width: 22%;
+}
+
+.decoration-square {
+  width: 80%;
+  padding-top: 80%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: -500px;
+  left: -700px;
+  right: 0;
+  opacity: 0.5;
+  background: #FFBF17;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  transform: rotate(45deg);
 }
