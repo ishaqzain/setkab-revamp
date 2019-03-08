@@ -183,17 +183,12 @@
 }
 
 .decoration-square {
-  width: 80%;
-  padding-top: 80%;
-  height: auto;
-  display: block;
+  width: 700px;
+  height: 700px;
+  border-radius: 100%;
   position: absolute;
-  top: -500px;
-  left: -700px;
-  right: 0;
-  opacity: 0.5;
+  top: -150px;
+  right: -70px;
+  opacity: 0.3;
   background: #FFBF17;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Safari 3-8 */
-  transform: rotate(45deg);
 }

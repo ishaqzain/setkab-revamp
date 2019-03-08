@@ -1,6 +1,7 @@
 var swiper = new Swiper('.swiper-container', {
   spaceBetween: 30,
   centeredSlides: true,
+  effect: 'fade',
   loop: true,
   speed: 500,
   autoplay: {
