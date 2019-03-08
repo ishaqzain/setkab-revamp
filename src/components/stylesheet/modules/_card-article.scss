@@ -78,6 +78,13 @@ $name   :  ".card-article";
       top:0;
       left: 0;
     }
+    &.is-tall {
+      #{$name} {
+        &__img {
+          padding-top: 115%;
+        }
+      }
+    }
     #{$name} {
       &__img {
         padding-top: 82.5%;

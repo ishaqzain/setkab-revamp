@@ -75,7 +75,7 @@ gulp.task('buildHTML', function () {
 })
 
 gulp.task('default', ['clean', 'copyDevFiles', 'minCss', 'minJs', 'buildHTML', 'copyFiles'], function () {
-  return gulp.src('src/index.html')
+  return gulp.src('src/*.html')
     .pipe(injectPartials({
       removeTags: true
     }))

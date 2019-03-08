@@ -575,6 +575,8 @@ img {
       opacity: .8;
       top: 0;
       left: 0; }
+    .card-article--cover.is-tall .card-article__img {
+      padding-top: 115%; }
     .card-article--cover .card-article__img {
       padding-top: 82.5%; }
     .card-article--cover .card-article__title {
