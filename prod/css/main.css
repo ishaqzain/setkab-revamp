@@ -255,7 +255,8 @@ body {
   overflow: hidden; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #248AFF; }
 
 .wrap-container {
   background-color: #F9FAFC;
@@ -540,7 +541,7 @@ img {
       color: inherit;
       background-repeat: no-repeat;
       background-size: 0% 2px;
-      background-image: linear-gradient(to right, black 0%, black 100%);
+      background-image: linear-gradient(to right, #1f2d3d 0%, #1f2d3d 100%);
       background-position: 0px 95%;
       transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s; }
       .card-article__title a::after {
@@ -1265,7 +1266,7 @@ button.swiper-pagination-bullet {
       font-size: 32px;
       background-repeat: no-repeat;
       background-size: 0% 2px;
-      background-image: linear-gradient(to right, black 0%, black 100%);
+      background-image: linear-gradient(to right, #1f2d3d 0%, #1f2d3d 100%);
       background-position: 0px 95%;
       transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s; }
       .swiper-slide__title a::after {
@@ -1469,3 +1470,80 @@ button.swiper-pagination-bullet {
 * _home
 *
 **************************************************/
+.content__title {
+  font-size: 32px;
+  color: #1F2D3D;
+  line-height: 40px;
+  font-weight: 800;
+  margin-bottom: 16px; }
+
+.content-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px; }
+  .content-info__left {
+    display: inline-flex; }
+    .content-info__left .content-meta {
+      margin-right: 12px; }
+  .content-info__right {
+    display: inline-flex; }
+
+.content-meta {
+  color: #8492A6;
+  font-size: 0.875rem; }
+  .content-meta bold {
+    color: #1F2D3D; }
+
+.content__img {
+  padding-top: 58.5%;
+  background-size: cover;
+  border-radius: 2px;
+  background-color: #6A7785;
+  background-position: 50% 50%;
+  transform: scale(1);
+  transition: transform 2.5s ease; }
+  .content__img-caption {
+    font-size: 0.75rem;
+    color: #8492A6;
+    font-family: 'Cabin', sans-serif;
+    margin: 12px 0 36px; }
+
+.content-group-meta, .content-next, .content-review {
+  padding-left: 85px; }
+
+.content-group-text {
+  display: flex;
+  position: relative; }
+
+.content__text {
+  font-family: 'Cabin', sans-serif;
+  color: #3C4858; }
+  .content__text p {
+    margin-bottom: 24px;
+    line-height: 1.5rem; }
+
+.content__share {
+  display: block; }
+  .content__share .inner {
+    position: sticky;
+    top: 10rem;
+    width: 86px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+    .content__share .inner img {
+      margin-bottom: 8px;
+      cursor: pointer; }
+
+.content-next {
+  font-family: 'Cabin', sans-serif;
+  color: #3C4858; }
+  .content-next p {
+    margin-bottom: 12px; }
+    .content-next p a {
+      font-weight: bold; }
+
+.content-review {
+  margin-top: 48px;
+  font-size: 1.125rem; }

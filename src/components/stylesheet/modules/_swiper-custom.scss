@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   margin-top: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 86px;
   overflow: visible;
 }
 .swiper-container-horizontal > .swiper-pagination-bullets {
@@ -56,10 +56,11 @@
     }
     a{
       color: $color-ink;
+      font-weight: bold;
       font-size: 32px;
       background-repeat: no-repeat;
       background-size: 0% 2px;
-      background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+      background-image: linear-gradient(to right, rgb(31, 45, 61) 0%, rgb(31, 45, 61) 100%);
       background-position: 0px 95%;
       transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
       &::after {

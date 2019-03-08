@@ -18,10 +18,13 @@ body {
 }
 
 .main {
-  overflow: hidden;
+  &.home-page {
+    overflow: hidden;
+  }
 }
 a{
   text-decoration: none;
+  color: #248AFF;
 }
 
 .wrap-container {
@@ -35,7 +38,7 @@ img{
 }
 
 .section {
-  padding-top: 48px;
+  margin-top: 48px;
   &-title {
     font-size: 20px;
     color: #0B396D;
