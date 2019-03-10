@@ -1,0 +1,29 @@
+<div id="surveyModal" class="survey">
+  <p><bold>Puaskah Anda terhadap informasi yang diberikan di website ini?</bold></p>
+  <div class="reaction">
+    <img onclick="closeSurveyFunction()" src="./images/ico_close.svg" class="survey-close-button" id="closeSurvey">
+    <div class="reaction__item">
+      <img class="reaction__img" src="./images/img_angry.svg" alt="">
+      <div class="reaction__label">Sangat Tidak Puas</div>
+    </div>
+    <div class="reaction__item">
+      <img class="reaction__img" src="./images/img_neutral.svg" alt="">
+      <div class="reaction__label">Biasa Saja</div>
+    </div>
+    <div class="reaction__item">
+      <img class="reaction__img" src="./images/img_love.svg" alt="">
+      <div class="reaction__label">Sangat Puas</div>
+    </div>
+  </div>
+</div>
+<!-- script add survey -->
+<script>
+  window.onload = function() {
+    var element = document.getElementById("surveyModal");
+    element.classList.add("is-show");
+  };
+  function closeSurveyFunction() {
+    var element = document.getElementById("surveyModal");
+    element.className = element.className.replace(/\bis-show\b/g, "");
+  }
+</script>

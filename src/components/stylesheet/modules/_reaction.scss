@@ -2,6 +2,7 @@ $name   :  ".reaction";
 
 #{$name} {
   display: flex;
+  position: relative;
   &__item {
     cursor: pointer;
     text-align: center;

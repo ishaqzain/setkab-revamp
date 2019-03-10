@@ -1259,7 +1259,8 @@ button.swiper-pagination-bullet {
 
 .reaction {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  position: relative; }
   .reaction__item {
     cursor: pointer;
     text-align: center;
@@ -1306,6 +1307,31 @@ button.swiper-pagination-bullet {
       color: white; }
     .pagination__item:hover:not(.is-active) {
       background-color: #ddd; }
+
+.survey {
+  position: fixed;
+  bottom: -100%;
+  right: 32px;
+  text-align: center;
+  padding: 24px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 99;
+  width: 100%;
+  max-width: 366px;
+  transition: bottom .5s ease-in-out; }
+  .survey p {
+    margin-bottom: 32px; }
+  .survey-close-button {
+    position: absolute;
+    top: -150px;
+    right: -24px;
+    cursor: pointer; }
+    .survey-close-button:hover {
+      opacity: .8; }
+  .survey.is-show {
+    bottom: 32px; }
 
 /*************************************************
 *
