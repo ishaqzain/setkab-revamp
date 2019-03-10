@@ -47,7 +47,7 @@ $name   :  ".content";
       margin: 12px 0 36px;
     }
   }
-  &-group-meta, &-next, &-review {
+  &-group-meta, &-next, &-reaction {
     padding-left: 85px;
   }
   &-group-text {
@@ -87,7 +87,7 @@ $name   :  ".content";
       }
     }
   }
-  &-review {
+  &-reaction {
     margin-top:48px;
     margin-bottom: 24px;
     font-size: rem(18);

@@ -1,0 +1,32 @@
+$name   :  ".pagination";
+
+#{$name} {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  &__item {
+    margin: 0 1px;
+    color: #979797;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 30px;
+    // padding: 8px 14px;
+    text-decoration: none;
+    transition: background-color .3s;
+    font-size: rem(14);
+    border-radius: $border-radius-default;
+    border: 1px solid #979797;
+    &.is-active {
+      background-color: $color-blue;
+      border-color: $color-blue;
+      color: white;
+    }
+    &:hover:not(.is-active) {
+      background-color: #ddd;
+    }
+  }
+}

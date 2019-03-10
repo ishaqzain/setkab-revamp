@@ -37,3 +37,32 @@
     top: -1px;
   }
 }
+
+.dropdown {
+  border: 2px solid #F0F0F0;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-weight: normal;
+  color: $color-ink;
+  position: relative;
+  &::after {
+    content: " ";
+    display: inline-block;
+    box-sizing: border-box;
+    height: 6px;
+    width: 6px;
+    border-style: solid;
+    border-color: $color-ink;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    margin: 0px 0px 2px 8px;
+    position: absolute;
+    top:16px;
+    right: 16px;
+    padding-right: 0px;
+  }
+  &__inner {
+    width: 100%;
+    outline: none;
+  }
+}

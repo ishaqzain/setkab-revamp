@@ -1,0 +1,26 @@
+$name   :  ".reaction";
+
+#{$name} {
+  display: flex;
+  &__item {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    &:hover {
+      opacity: .8;
+      #{$name}__img {
+        transform: scale(1.1)
+      }
+    }
+  }
+  &__img{
+    max-width: 100%;
+    margin-bottom: 12px;
+    transition: all .5s ease-in-out
+  }
+  &__label {
+    font-weight: 500;
+    font-size: rem(14);
+    color: #8492A6;
+  }
+}
